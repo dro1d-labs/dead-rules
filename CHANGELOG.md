@@ -2,5 +2,5 @@
 
 ## v0.1 – Initial Publication
 - Repository created
-- Rule philosophy documented
+- Privacy-first philosophy documented
 - Initial structure established
