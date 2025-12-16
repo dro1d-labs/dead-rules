@@ -1,32 +1,69 @@
 ![iOS](https://img.shields.io/badge/iOS-18+-lightgrey.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-green.svg)
-![Security](https://img.shields.io/badge/Security-Hardened-black.svg)
-![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen.svg)
+![Rules](https://img.shields.io/badge/Rules-~63k%20Active-brightgreen.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
-# De-Ad Rules
+# De-Ad Blocking Rules
 
-Open, privacy-respecting content blocking rules used by **De-Ad** for Safari on iOS.
-
-This repository contains the curated blocklists and rule definitions that power De-Ad’s ad and tracker blocking — processed entirely on-device using Apple’s Content Blocker framework.
+Open, auditable content blocking rules used by **[De-Ad](https://dro1d.org/dead.html)** — a minimal Safari ad blocker for iOS.
 
 ## Philosophy
-- 100% offline usage
-- No tracking, telemetry, or analytics
-- No remote rule execution
-- No user data collection
+- 🔒 100% offline, on-device processing
+- 👁️ No tracking, telemetry, or analytics
+- 🚫 No remote rule execution
+- 📂 Fully auditable and transparent
+- 🆓 Free forever (app has optional Pro themes)
 
-## What’s Included
-- Curated third-party blocklists
-- De-Ad specific optimizations and exclusions
-- Merge and normalization logic (documented)
+## How It Works
+De-Ad provides Safari with a curated blocklist (`blockerList.json`) that:
+1. Safari's WebKit engine compiles into optimized rules
+2. Blocks ads, trackers, and analytics **before** they load
+3. Runs entirely on your device
+4. Never sees your browsing history (by design of Apple's Content Blocker API)
 
-## What’s Not Included
-- App source code
-- User data
-- Analytics or update infrastructure
+## What's Included
+- ✅ Curated third-party blocklists (see [RULES.md](RULES.md))
+- ✅ dro1d labs custom optimizations
+- ✅ Cookie banner & consent popup rules
+- ✅ Social media tracker rules
+- ✅ All rules in human-readable JSON format
 
-## Transparency
-All rules published here are human-readable and auditable.
+## What's NOT Included
+- ❌ App source code (app is proprietary, rules are open)
+- ❌ User data (we don't collect any)
+- ❌ Telemetry or analytics
+- ❌ Remote update infrastructure
+
+## File Structure
+dead-rules/
+├── blockerList.json        # The actual Safari Content Blocker rules
+├── RULES.md                # Detailed source attribution
+├── CHANGELOG.md            # Version history
+└── LICENSE                 # MIT License
+
+
+## Using These Rules
+These rules are automatically bundled with the **De-Ad iOS app**. They update when you update the app from the App Store.
+
+**Want to use them elsewhere?**  
+The rules are Safari Content Blocker format. You can use them in any compatible iOS/macOS app, but De-Ad is built specifically for these rules.
+
+## Transparency Promise
+Every domain blocked by De-Ad is visible in `blockerList.json`.  
+No hidden rules. No secret exceptions. No paid whitelists.
+
+## Download De-Ad
+- **App Store:** [Coming soon]
+- **Website:** [dro1d.org/dead.html](https://dro1d.org/dead.html)
+- **Privacy Policy:** [dro1d.org/dead-privacy.html](https://dro1d.org/dead-privacy.html)
 
 ## License
-See LICENSE for details.
+MIT License - See [LICENSE](LICENSE) for details.
+
+## Support
+Questions? Email: [dead@dro1d.org](mailto:dead@dro1d.org)
+
+---
+
+**Made by [dro1d labs](https://dro1d.org)**  
+Privacy-first software for iOS & macOS
