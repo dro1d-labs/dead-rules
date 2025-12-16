@@ -35,12 +35,17 @@ De-Ad provides Safari with a curated blocklist (`blockerList.json`) that:
 - ❌ Remote update infrastructure
 
 ## File Structure
+
 dead-rules/
 ├── blockerList.json        # The actual Safari Content Blocker rules
 ├── RULES.md                # Detailed source attribution
 ├── CHANGELOG.md            # Version history
 └── LICENSE                 # MIT License
 
+## Updates
+Rules are updated **weekly** and bundled with De-Ad app updates.
+
+Check [CHANGELOG.md](CHANGELOG.md) for recent additions.
 
 ## Using These Rules
 These rules are automatically bundled with the **De-Ad iOS app**. They update when you update the app from the App Store.
