@@ -2,6 +2,7 @@
 
 ## v1.2.3 – January 2026
 - Blocklist update
+- Blocklist update
 
 ## v1.2.2 – January 2026
 - Blocklist update
