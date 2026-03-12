@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.3.2 – March 2026
+- Blocklist update
+
+## v1.3.1 – March 2026
+- Blocklist update
+- iOS extension compatibility fix
+
 ## v1.2.8 – February 2026
 - Blocklist update
 - Performance enhancements
