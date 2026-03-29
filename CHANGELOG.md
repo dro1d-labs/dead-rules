@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.3 – March 2026
+- Blocklist update
+
 ## v1.3.2 – March 2026
 - Blocklist update
 
