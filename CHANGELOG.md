@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.4 – April 2026
+- Blocklist update
+- Rule MetaData enhancements
+
 ## v1.3.3 – March 2026
 - Blocklist update
 
