@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4.1 – May 2026
+- Blocklist enhanced & updated
+- De-Ad theme: custom geometric text + logo integration [Premium]
+- Redesigned Home & Protection Scope card [Premium]
+- Added FAQ section
+- Cookie Monster & Annoyance blocklists added
+- 6 blocklist sources, ~40k optimized rules
+- Test at dro1d.org/dead
+
 ## v1.3.6 – April 2026
 - Blocklist update
 
