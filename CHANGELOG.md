@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.2 – May 2026
+- Fixed Site Rescue feature
+- Improved Site Rescue UI with clearer usage instructions  
+- Updated protection test page for better accuracy
+
 ## v1.4.1 – May 2026
 - Blocklist enhanced & updated
 - De-Ad theme: custom geometric text + logo integration [Premium]
